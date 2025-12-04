@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Conditions - Trackflow</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+
+        .content {
+            padding: 40px 30px;
+        }
+
+        .last-updated {
+            display: inline-block;
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+            margin-bottom: 30px;
+            border: 2px solid #bbdefb;
+        }
+
+        .intro {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border-left: 4px solid #667eea;
+        }
+
+        .intro h2 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+
+        .intro p {
+            color: #555;
+            font-size: 1.05em;
+        }
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section h2::before {
+            content: "●";
+            color: #764ba2;
+            font-size: 0.7em;
+        }
+
+        .section h3 {
+            color: #333;
+            font-size: 1.2em;
+            margin: 20px 0 10px 0;
+            padding-left: 15px;
+            border-left: 3px solid #667eea;
+        }
+
+        .section p, .section ul {
+            color: #555;
+            margin-bottom: 15px;
+            font-size: 1.05em;
+        }
+
+        .section ul {
+            padding-left: 30px;
+        }
+
+        .section li {
+            margin-bottom: 10px;
+            line-height: 1.7;
+        }
+
+        .highlight-box {
+            background: #fff3e0;
+            border: 2px solid #ff9800;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .highlight-box h3 {
+            color: #e65100;
+            border: none;
+            padding: 0;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .highlight-box p {
+            color: #e65100;
+            font-weight: 500;
+        }
+
+        .warning-box {
+            background: #ffebee;
+            border: 2px solid #f44336;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .warning-box h3 {
+            color: #c62828;
+            border: none;
+            padding: 0;
+            margin-bottom: 10px;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .contact-box h2 {
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        .contact-box p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        .contact-box a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.2em;
+            padding: 12px 30px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 10px;
+            transition: all 0.3s;
+        }
+
+        .contact-box a:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+        }
+
+        .footer {
+            background: #f5f5f5;
+            padding: 20px 30px;
+            text-align: center;
+            color: #777;
+            font-size: 0.9em;
+        }
+
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .content {
+                padding: 25px 20px;
+            }
+
+            .section h2 {
+                font-size: 1.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Terms & Conditions</h1>
+            <p>Trackflow - Personal Finance Tracker</p>
+        </div>
+
+        <div class="content">
+            <div class="last-updated">
+                Last Updated: December 2024
+            </div>
+
+            <div class="intro">
+                <h2>Welcome to Trackflow</h2>
+                <p>By downloading, installing, or using Trackflow, you agree to be bound by these Terms and Conditions. Please read them carefully before using the app.</p>
+            </div>
+
+            <div class="section">
+                <h2>1. Acceptance of Terms</h2>
+                <p>By accessing and using Trackflow (the "App"), you accept and agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use the App.</p>
+            </div>
+
+            <div class="section">
+                <h2>2. App Description</h2>
+                <p><strong>Trackflow</strong> is a personal finance tracker and expense management application designed to help users:</p>
+                <ul>
+                    <li>Track expenses and income transactions</li>
+                    <li>Manage budgets and financial goals</li>
+                    <li>Store receipt images securely</li>
+                    <li>Import and export financial data</li>
+                    <li>Gain insights into spending patterns</li>
+                    <li>Maintain financial records completely offline</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>3. Age Requirements</h2>
+                <p><strong>Minimum Age:</strong> You must be at least 13 years old to use Trackflow.</p>
+                <p><strong>Parental Consent:</strong> Users between 13 and 18 years of age must have parental or guardian consent to use this App.</p>
+            </div>
+
+            <div class="section">
+                <h2>4. Offline Functionality</h2>
+                
+                <h3>Complete Offline Operation</h3>
+                <p>Trackflow is designed to function entirely offline. All your financial data is stored locally on your device. The App does not require an internet connection to operate.</p>
+
+                <h3>No Server Communication</h3>
+                <p>We do not upload, sync, or transmit your data to any external servers or cloud services. Your data remains exclusively on your device.</p>
+
+                <h3>Optional Internet Use</h3>
+                <p>Internet connection may only be used for:</p>
+                <ul>
+                    <li>Sending feedback via email (through your device's email client)</li>
+                    <li>Checking for app updates from the Play Store (optional)</li>
+                </ul>
+                <p>These actions are entirely optional and user-initiated.</p>
+            </div>
+
+            <div class="section">
+                <h2>5. User Account and Data</h2>
+                
+                <h3>One Account Per Device</h3>
+                <p>Trackflow allows the creation of only one user account per device. This is a security measure to protect your financial data.</p>
+
+                <h3>Account Information</h3>
+                <p>When you create an account, you provide:</p>
+                <ul>
+                    <li>Full name</li>
+                    <li>Email address</li>
+                    <li>Password</li>
+                    <li>Security questions and answers</li>
+                    <li>Recovery code</li>
+                </ul>
+                <p>All this information is stored <strong>locally on your device only</strong> and is never transmitted to any server.</p>
+
+                <h3>Account Security</h3>
+                <p>You are responsible for:</p>
+                <ul>
+                    <li>Maintaining the confidentiality of your password</li>
+                    <li>Safeguarding your recovery code</li>
+                    <li>Remembering your security question answers</li>
+                    <li>All activities that occur under your account</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>6. Data Backup and Recovery</h2>
+                
+                <h3>User Responsibility</h3>
+                <p>You are solely responsible for backing up your data. We strongly recommend creating regular backups using the App's backup feature.</p>
+
+                <h3>Data Loss</h3>
+                <p>Trackflow and its developer (Vipul Patel) are not responsible for any data loss resulting from:</p>
+                <ul>
+                    <li>Device malfunction or damage</li>
+                    <li>App uninstallation without backup</li>
+                    <li>Operating system updates or resets</li>
+                    <li>Lost or forgotten passwords, recovery codes, or security answers</li>
+                    <li>Database corruption</li>
+                </ul>
+
+                <h3>Password Recovery</h3>
+                <p>Password recovery requires:</p>
+                <ul>
+                    <li>Correct answers to both security questions</li>
+                    <li>Valid recovery code</li>
+                </ul>
+                <p>If you lose all recovery options, your data cannot be recovered as we have no access to it.</p>
+            </div>
+
+            <div class="section">
+                <h2>7. Financial Insights and Recommendations</h2>
+                
+                <div class="warning-box">
+                    <h3>⚠️ Not Financial Advice</h3>
+                    <p>Trackflow does not provide financial, investment, legal, or tax advice. The insights, suggestions, and analysis displayed in the App are generated solely based on your spending patterns and historical data.</p>
+                </div>
+
+                <p>Any insights, recommendations, or financial analysis provided by the App:</p>
+                <ul>
+                    <li>Are for informational purposes only</li>
+                    <li>Should not be considered professional financial advice</li>
+                    <li>Are based solely on the data you input</li>
+                    <li>May not account for your complete financial situation</li>
+                </ul>
+
+                <p><strong>Important:</strong> For major financial decisions, always consult qualified financial advisors, accountants, or legal professionals.</p>
+            </div>
+
+            <div class="section">
+                <h2>8. Data Privacy and Storage</h2>
+                
+                <h3>Local Storage Only</h3>
+                <p>All your data remains exclusively on your device. We do not collect, store, access, or transmit any of your personal or financial information.</p>
+
+                <h3>Your Control</h3>
+                <p>You maintain complete control over your data, including the ability to:</p>
+                <ul>
+                    <li>Export data to Excel format</li>
+                    <li>Create encrypted backup files</li>
+                    <li>Delete all data permanently</li>
+                    <li>Transfer data between your devices using backup files</li>
+                </ul>
+
+                <h3>Privacy Policy</h3>
+                <p>For complete details on how we handle your data, please review our <a href="index.html" style="color: #667eea; font-weight: 600;">Privacy Policy</a>.</p>
+            </div>
+
+            <div class="section">
+                <h2>9. App Permissions</h2>
+                
+                <p>Trackflow may request the following device permissions:</p>
+
+                <h3>Storage Permission</h3>
+                <p><strong>Required for:</strong></p>
+                <ul>
+                    <li>Saving transaction data and receipt images</li>
+                    <li>Creating and restoring backup files</li>
+                    <li>Importing bank statements (Excel format)</li>
+                    <li>Exporting transaction data</li>
+                </ul>
+
+                <h3>Camera Permission</h3>
+                <p><strong>Required for:</strong></p>
+                <ul>
+                    <li>Capturing receipt photos to attach to transactions</li>
+                </ul>
+
+                <h3>Biometric Permission</h3>
+                <p><strong>Optional, used for:</strong></p>
+                <ul>
+                    <li>Fingerprint or face recognition authentication</li>
+                    <li>App lock security</li>
+                </ul>
+
+                <p>All permissions are used strictly for local functionality. No data collected through these permissions is ever transmitted externally.</p>
+            </div>
+
+            <div class="section">
+                <h2>10. App Features</h2>
+                
+                <p>Trackflow provides the following features:</p>
+
+                <h3>Transaction Management</h3>
+                <ul>
+                    <li>Add, edit, and delete income and expense transactions</li>
+                    <li>Attach receipt photos to transactions</li>
+                    <li>Categorize transactions with custom categories</li>
+                    <li>Quick action buttons for frequently used entries</li>
+                </ul>
+
+                <h3>Budget and Goal Tracking</h3>
+                <ul>
+                    <li>Create and monitor budgets based on spending patterns</li>
+                    <li>Set and track financial goals</li>
+                    <li>Receive insights on budget performance</li>
+                </ul>
+
+                <h3>Account Management</h3>
+                <ul>
+                    <li>Track multiple bank accounts</li>
+                    <li>Monitor cash on hand</li>
+                    <li>View consolidated financial overview</li>
+                </ul>
+
+                <h3>Data Import/Export</h3>
+                <ul>
+                    <li>Import bank statements in Excel format</li>
+                    <li>Export transactions for any date range to Excel</li>
+                    <li>Create encrypted backup files</li>
+                    <li>Restore data from backup files</li>
+                </ul>
+
+                <h3>Security Features</h3>
+                <ul>
+                    <li>Biometric authentication (fingerprint/face)</li>
+                    <li>PIN code protection</li>
+                    <li>Hidden balance feature with calculator disguise</li>
+                    <li>Encrypted backups with password protection</li>
+                </ul>
+
+                <h3>Customization</h3>
+                <ul>
+                    <li>Multi-currency support (INR, USD, EUR, GBP, JPY, AUD, CAD)</li>
+                    <li>Dark mode</li>
+                    <li>Custom categories and subcategories</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>11. User Responsibilities</h2>
+                
+                <p>As a Trackflow user, you agree to:</p>
+                <ul>
+                    <li>Provide accurate financial information for your personal use</li>
+                    <li>Keep your password, recovery code, and security answers secure</li>
+                    <li>Regularly back up your data to prevent loss</li>
+                    <li>Ensure your device has adequate security (screen lock, encryption)</li>
+                    <li>Use the App in compliance with all applicable laws and regulations</li>
+                    <li>Not attempt to reverse engineer, decompile, or modify the App</li>
+                    <li>Not use the App for any illegal or unauthorized purpose</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>12. Limitation of Liability</h2>
+                
+                <div class="highlight-box">
+                    <h3>⚠️ Important Legal Notice</h3>
+                    <p>Trackflow is provided "as is" without warranties of any kind, either express or implied.</p>
+                </div>
+
+                <p>To the maximum extent permitted by law, Vipul Patel (the developer) and Trackflow shall not be liable for:</p>
+
+                <h3>Financial Losses</h3>
+                <ul>
+                    <li>Any financial losses or damages arising from use of the App</li>
+                    <li>Decisions made based on App insights or recommendations</li>
+                    <li>Errors or inaccuracies in calculations or analysis</li>
+                </ul>
+
+                <h3>Data Loss</h3>
+                <ul>
+                    <li>Loss of data due to device failure, corruption, or user error</li>
+                    <li>Inability to recover data due to lost passwords or recovery codes</li>
+                    <li>Data loss from app uninstallation without proper backup</li>
+                </ul>
+
+                <h3>Technical Issues</h3>
+                <ul>
+                    <li>App crashes, bugs, or malfunctions</li>
+                    <li>Incompatibility with certain devices or OS versions</li>
+                    <li>Performance issues or unexpected behavior</li>
+                </ul>
+
+                <h3>Third-Party Actions</h3>
+                <ul>
+                    <li>Unauthorized access to your device or data</li>
+                    <li>Device theft, loss, or damage</li>
+                </ul>
+
+                <p><strong>Use the App at your own risk.</strong> We recommend maintaining regular backups and exercising caution with your financial data.</p>
+            </div>
+
+            <div class="section">
+                <h2>13. Intellectual Property</h2>
+                
+                <p>All content, features, and functionality of Trackflow, including but not limited to:</p>
+                <ul>
+                    <li>Software code and architecture</li>
+                    <li>User interface and design</li>
+                    <li>Graphics, logos, and icons</li>
+                    <li>Text and documentation</li>
+                </ul>
+
+                <p>Are owned by Vipul Patel and are protected by copyright, trademark, and other intellectual property laws.</p>
+
+                <p>You are granted a limited, non-exclusive, non-transferable license to use the App for personal, non-commercial purposes only.</p>
+            </div>
+
+            <div class="section">
+                <h2>14. App Updates and Modifications</h2>
+                
+                <h3>Updates</h3>
+                <p>We may release updates to improve functionality, fix bugs, or add new features. Updates may be delivered through the Google Play Store.</p>
+
+                <h3>Modifications</h3>
+                <p>We reserve the right to modify, suspend, or discontinue any aspect of the App at any time without prior notice.</p>
+
+                <h3>Backward Compatibility</h3>
+                <p>While we strive to maintain backward compatibility, we cannot guarantee that future updates will support all features or data from previous versions.</p>
+            </div>
+
+            <div class="section">
+                <h2>15. Termination</h2>
+                
+                <h3>Your Right to Terminate</h3>
+                <p>You may stop using Trackflow at any time by uninstalling the App from your device. We recommend creating a backup before uninstallation if you wish to preserve your data.</p>
+
+                <h3>Effect of Termination</h3>
+                <p>Upon uninstallation:</p>
+                <ul>
+                    <li>All locally stored data will be permanently deleted from your device</li>
+                    <li>You will lose access to all transactions, budgets, goals, and receipts unless backed up</li>
+                    <li>These Terms and Conditions will no longer apply to you</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>16. Governing Law</h2>
+                
+                <p>These Terms and Conditions shall be governed by and construed in accordance with the laws of India, without regard to its conflict of law provisions.</p>
+
+                <p>Any disputes arising from these terms or use of the App shall be subject to the exclusive jurisdiction of the courts in Gujarat, India.</p>
+            </div>
+
+            <div class="section">
+                <h2>17. Changes to Terms</h2>
+                
+                <p>We reserve the right to modify these Terms and Conditions at any time. Changes will be effective immediately upon posting the updated terms.</p>
+
+                <p>Material changes will be communicated through:</p>
+                <ul>
+                    <li>App update notifications</li>
+                    <li>This webpage (check the "Last Updated" date)</li>
+                </ul>
+
+                <p>Your continued use of Trackflow after any changes indicates your acceptance of the updated Terms and Conditions.</p>
+            </div>
+
+            <div class="section">
+                <h2>18. Severability</h2>
+                
+                <p>If any provision of these Terms and Conditions is found to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.</p>
+            </div>
+
+            <div class="section">
+                <h2>19. Entire Agreement</h2>
+                
+                <p>These Terms and Conditions, together with our Privacy Policy, constitute the entire agreement between you and Trackflow regarding the use of the App.</p>
+            </div>
+
+            <div class="contact-box">
+                <h2>📧 Questions or Concerns?</h2>
+                <p>If you have any questions about these Terms and Conditions, please contact us:</p>
+                <a href="mailto:help.trackflow@gmail.com">help.trackflow@gmail.com</a>
+                <p style="margin-top: 15px; font-size: 0.95em; opacity: 0.9;">Developer: Vipul Patel</p>
+            </div>
+
+            <div class="highlight-box" style="margin-top: 30px;">
+                <h3>✅ By using Trackflow, you acknowledge that:</h3>
+                <p>You have read, understood, and agree to be bound by these Terms and Conditions and our Privacy Policy. You understand that Trackflow is an offline personal finance tool and that you are solely responsible for backing up your data and making your own financial decisions.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 Trackflow. All rights reserved.</p>
+            <p><a href="terms.html">Terms & Conditions</a> | <a href="index.html">Privacy Policy</a></p>
+        </div>
+    </div>
+</body>
+</html>
