@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Trackflow</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+
+        .content {
+            padding: 40px 30px;
+        }
+
+        .last-updated {
+            display: inline-block;
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+            margin-bottom: 30px;
+            border: 2px solid #bbdefb;
+        }
+
+        .intro {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border-left: 4px solid #667eea;
+        }
+
+        .intro h2 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+
+        .intro p {
+            color: #555;
+            font-size: 1.05em;
+        }
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section h2::before {
+            content: "●";
+            color: #764ba2;
+            font-size: 0.7em;
+        }
+
+        .section h3 {
+            color: #333;
+            font-size: 1.2em;
+            margin: 20px 0 10px 0;
+            padding-left: 15px;
+            border-left: 3px solid #667eea;
+        }
+
+        .section p, .section ul {
+            color: #555;
+            margin-bottom: 15px;
+            font-size: 1.05em;
+        }
+
+        .section ul {
+            padding-left: 30px;
+        }
+
+        .section li {
+            margin-bottom: 10px;
+            line-height: 1.7;
+        }
+
+        .highlight-box {
+            background: #e8f5e9;
+            border: 2px solid #4caf50;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .highlight-box h3 {
+            color: #2e7d32;
+            border: none;
+            padding: 0;
+            margin-bottom: 10px;
+        }
+
+        .highlight-box p {
+            color: #1b5e20;
+            font-weight: 500;
+        }
+
+        .warning-box {
+            background: #fff3e0;
+            border: 2px solid #ff9800;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .warning-box h3 {
+            color: #e65100;
+            border: none;
+            padding: 0;
+            margin-bottom: 10px;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .contact-box h2 {
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        .contact-box p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        .contact-box a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.2em;
+            padding: 12px 30px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 10px;
+            transition: all 0.3s;
+        }
+
+        .contact-box a:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+        }
+
+        .footer {
+            background: #f5f5f5;
+            padding: 20px 30px;
+            text-align: center;
+            color: #777;
+            font-size: 0.9em;
+        }
+
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .content {
+                padding: 25px 20px;
+            }
+
+            .section h2 {
+                font-size: 1.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Privacy Policy</h1>
+            <p>Trackflow - Personal Finance Tracker</p>
+        </div>
+
+        <div class="content">
+            <div class="last-updated">
+                Last Updated: December 2024
+            </div>
+
+            <div class="intro">
+                <h2>Your Privacy is Our Priority</h2>
+                <p><strong>Trackflow</strong> is designed with privacy at its core. This policy explains how we handle your data. The short version: <strong>We don't collect, store, or transmit any of your data. Everything stays on your device.</strong></p>
+            </div>
+
+            <div class="section">
+                <h2>1. Data Collection</h2>
+                
+                <h3>Local Storage Only</h3>
+                <p>All your financial data including transactions, budgets, categories, goals, receipts, and account information is stored locally on your device in an encrypted SQLite database. Your data never leaves your device.</p>
+
+                <h3>No Cloud Upload</h3>
+                <p>We do not collect, transmit, or store any of your data on external servers or cloud services. Trackflow is a 100% offline application.</p>
+
+                <h3>No Personal Information Collection</h3>
+                <p>We do not collect personal identifiable information such as:</p>
+                <ul>
+                    <li>Name, email, or phone number (beyond what you voluntarily enter for your own records)</li>
+                    <li>Location data</li>
+                    <li>Device identifiers</li>
+                    <li>Usage analytics or tracking data</li>
+                </ul>
+
+                <h3>Account Information</h3>
+                <p>When you create an account in Trackflow, all account information (email, password, security questions, recovery code) is stored <strong>locally on your device only</strong>. This data is used solely for app authentication and password recovery, and is never transmitted to any server.</p>
+            </div>
+
+            <div class="section">
+                <h2>2. How We Use Your Data</h2>
+                
+                <h3>App Functionality</h3>
+                <p>Your data is used solely to provide app features including:</p>
+                <ul>
+                    <li>Expense and income tracking</li>
+                    <li>Budget management and monitoring</li>
+                    <li>Goal setting and tracking</li>
+                    <li>Financial insights and analytics</li>
+                    <li>Receipt storage and management</li>
+                    <li>Bank statement import functionality</li>
+                    <li>Data backup and restore</li>
+                    <li>Quick action buttons for fast entry</li>
+                </ul>
+
+                <h3>User Control</h3>
+                <p>You have complete control over your data. You can:</p>
+                <ul>
+                    <li>Export all data in Excel format</li>
+                    <li>Create encrypted backup files</li>
+                    <li>Delete all data permanently</li>
+                    <li>Transfer data to a new device via backup files</li>
+                </ul>
+
+                <h3>No Analytics or Tracking</h3>
+                <p>We do not use any third-party analytics, tracking services, or advertising networks. Your usage patterns, behavior, and financial data remain completely private.</p>
+            </div>
+
+            <div class="section">
+                <h2>3. Data Security</h2>
+                
+                <h3>Encrypted Storage</h3>
+                <p>Your data is stored in an encrypted local database protected by your device's security features. Only you can access your data through the app.</p>
+
+                <h3>App Lock Protection</h3>
+                <p>Trackflow offers multiple security layers:</p>
+                <ul>
+                    <li><strong>Biometric Authentication:</strong> Fingerprint or face recognition for quick, secure access</li>
+                    <li><strong>PIN Protection:</strong> Custom PIN code as an alternative security method</li>
+                    <li>Optional balance hiding and calculator disguise feature</li>
+                </ul>
+
+                <h3>Secure Backups</h3>
+                <p>Backup files are encrypted with your password and can only be restored with:</p>
+                <ul>
+                    <li>Your recovery code</li>
+                    <li>Correct answers to your security questions</li>
+                </ul>
+                <p>These backup files can be safely shared between your devices or stored in your preferred cloud storage (under your control).</p>
+
+                <h3>One Account Per Device</h3>
+                <p>For security purposes, Trackflow allows only one account per device. This ensures data isolation and prevents unauthorized access to your financial information.</p>
+            </div>
+
+            <div class="section">
+                <h2>4. Data Sharing</h2>
+                
+                <h3>No Third-Party Sharing</h3>
+                <p>We do not sell, rent, trade, or share your data with any third parties, advertisers, data brokers, or analytics companies. Your financial data is yours alone.</p>
+
+                <h3>No Advertisements</h3>
+                <p>This app does not contain advertisements, ad tracking, or any monetization through your data.</p>
+
+                <h3>User-Controlled Export</h3>
+                <p>You can export your data in the following ways, all entirely under your control:</p>
+                <ul>
+                    <li><strong>Excel Export:</strong> Export transactions for any date range</li>
+                    <li><strong>Encrypted Backup:</strong> Create password-protected backup files</li>
+                    <li><strong>Bank Statement Import:</strong> Import your bank statements (processed locally only)</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>5. App Permissions</h2>
+                
+                <p>Trackflow may request the following permissions. All permissions are used strictly for local functionality:</p>
+
+                <h3>Storage Permission</h3>
+                <p><strong>Purpose:</strong> Required to:</p>
+                <ul>
+                    <li>Save transaction data and receipt images locally</li>
+                    <li>Create and restore backup files</li>
+                    <li>Import bank statements in Excel format</li>
+                    <li>Export data to Excel files</li>
+                </ul>
+                <p><strong>Data handling:</strong> All files remain on your device. No data is uploaded anywhere.</p>
+
+                <h3>Camera Permission</h3>
+                <p><strong>Purpose:</strong> Used only to capture receipt photos for transactions.</p>
+                <p><strong>Data handling:</strong> Photos are stored locally on your device and attached to transactions. They are never uploaded or transmitted.</p>
+
+                <h3>Biometric Permission</h3>
+                <p><strong>Purpose:</strong> Optional permission for fingerprint or face recognition to unlock the app.</p>
+                <p><strong>Data handling:</strong> Biometric data never leaves your device and is managed entirely by your device's operating system.</p>
+
+                <h3>No Network Permission</h3>
+                <p>Trackflow does not require or request internet permission. The app functions completely offline.</p>
+            </div>
+
+            <div class="section">
+                <h2>6. Key Features and Privacy</h2>
+                
+                <p>Here's how Trackflow's features respect your privacy:</p>
+
+                <h3>Multi-Currency Support</h3>
+                <p>Supports Indian Rupee, US Dollar, Euro, British Pound, Japanese Yen, Australian Dollar, and Canadian Dollar. Currency selection is stored locally only.</p>
+
+                <h3>Bank and Cash Tracking</h3>
+                <p>Track multiple bank accounts and cash on hand. All balances and transactions are stored locally on your device.</p>
+
+                <h3>Quick Action Buttons</h3>
+                <p>Create up to 4 quick action buttons for frequent expenses. These preferences are saved locally.</p>
+
+                <h3>Hidden Balance Feature</h3>
+                <p>Use the calculator icon to hide your balance or use a working calculator. This feature operates entirely offline.</p>
+
+                <h3>Receipt Photos</h3>
+                <p>Attach one image per transaction. Even if you delete the original photo from your device gallery, the copy in Trackflow remains accessible. All images are stored locally.</p>
+
+                <h3>Dark Mode</h3>
+                <p>Visual preference stored locally on your device.</p>
+            </div>
+
+            <div class="section">
+                <h2>7. Your Rights</h2>
+                
+                <p>As a Trackflow user, you have complete control over your data:</p>
+
+                <h3>Right to Access</h3>
+                <p>You have full access to all your data within the app at any time.</p>
+
+                <h3>Right to Export</h3>
+                <p>Export your transactions in Excel format for any date range you choose.</p>
+
+                <h3>Right to Backup</h3>
+                <p>Create encrypted backup files that you can store wherever you prefer (cloud storage, external drive, etc.).</p>
+
+                <h3>Right to Delete</h3>
+                <p>Permanently delete all your data using the "Backup & Wipe" feature. This action is irreversible.</p>
+
+                <h3>Right to Transfer</h3>
+                <p>Transfer your data to a new device by creating a backup on your old device and restoring it on the new one.</p>
+            </div>
+
+            <div class="section">
+                <h2>8. Children's Privacy</h2>
+                
+                <p><strong>Age Requirement:</strong> Trackflow is not intended for children under 13 years of age. We do not knowingly collect data from children.</p>
+                
+                <p><strong>Parental Supervision:</strong> Users between 13 and 18 years old should use this app under parental consent and supervision.</p>
+            </div>
+
+            <div class="section">
+                <h2>9. Changes to This Policy</h2>
+                
+                <p>We may update this Privacy Policy from time to time to reflect changes in the app or legal requirements. Any material changes will be communicated through:</p>
+                <ul>
+                    <li>App update notifications</li>
+                    <li>This webpage (check the "Last Updated" date)</li>
+                </ul>
+                
+                <p>Continued use of Trackflow after policy updates indicates your acceptance of the changes.</p>
+            </div>
+
+            <div class="section">
+                <h2>10. Data Retention</h2>
+                
+                <p>Since all data is stored locally on your device:</p>
+                <ul>
+                    <li>Data remains on your device until you manually delete it</li>
+                    <li>Uninstalling the app will delete all local data</li>
+                    <li>We recommend regular backups to prevent data loss</li>
+                    <li>We have no ability to recover your data if lost, as we never store it on our servers</li>
+                </ul>
+            </div>
+
+            <div class="highlight-box">
+                <h3>🔒 Our Privacy Commitment</h3>
+                <p>Trackflow is built on the principle that your financial data is yours alone. We will never compromise your privacy by collecting, selling, or sharing your data. Everything stays on your device, under your control, always.</p>
+            </div>
+
+            <div class="contact-box">
+                <h2>📧 Contact Us</h2>
+                <p>For any privacy concerns, questions, or feedback:</p>
+                <a href="mailto:help.trackflow@gmail.com">help.trackflow@gmail.com</a>
+                <p style="margin-top: 15px; font-size: 0.95em; opacity: 0.9;">Developer: Vipul Patel</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 Trackflow. All rights reserved.</p>
+            <p><a href="terms.html">Terms & Conditions</a> | <a href="index.html">Privacy Policy</a></p>
+        </div>
+    </div>
+</body>
+</html>
